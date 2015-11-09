@@ -10,7 +10,7 @@ section{
   padding:40px 0 40px 0;
 }
 .jumbotron{
-  background: url(../img/site_showcase_bg.jpg) no-repeat top center;
+  background:#1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
   color:#fff;
   height:500px;
   overflow:none;
@@ -84,5 +84,64 @@ footer a {
 footer p {
   float:right;
 }
+
+
+
+@media(max-width: 1200px){
+    
+
+}
+
+@media(max-width: 991px){
+    
+  .showcase-img{
+    display:none;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 990px){
+  .jumbotron .app-btn{
+    width:30%;
+ 
+
+  }
+  .jumbotron{
+    height: 400px;
+    background: 100% 100%;
+  }
+  .jumbotron h1 {
+    margin-top: 10px;
+  }
+}
+
+
+@media(mix-width: 768px) {
+.jumbotron{
+    height: 350px;
+    background: 100% 100%;
+  }
+  .jumbotron h1 {
+    margin-top: 10px;
+  }
+
+}
+
+@media(max-width: 500px){
+    .jumbotron{
+    height: 450px;
+    background-image: none;
+    text-align: center;
+  }
+.jumbotron .app-btn{
+    width:60%;
+    margin: 0 auto 30px auto;
+    display:block;
+ 
+
+  }
+
+}
+
+
 
 
